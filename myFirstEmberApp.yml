@@ -1,0 +1,11 @@
+# ~/.tmuxinator/myFirstEmberApp.yml
+
+name: myFirstEmberApp
+root: ~/Code/railscamp/myFirstEmberApp
+
+windows:
+ - vim: vim
+ - terminal:
+ - terminal:
+ - server: ember server
+

@@ -1,0 +1,10 @@
+# ~/.tmuxinator/haskell.yml
+
+name: haskell
+root: ~/Documents/Haskell/edx/
+
+windows:
+ - vim: vim
+ - terminal:
+ - terminal:
+ - ghci: ghci -Wall

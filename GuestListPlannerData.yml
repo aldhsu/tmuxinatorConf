@@ -1,0 +1,11 @@
+# ~/.tmuxinator/GuestListPlannerData.yml
+
+name: GuestListPlannerData
+root: ~/Code/GuestListPlannerData
+
+windows:
+ - vim: vim
+ - specs:
+ - logs: tail development.log - server: rails s
+ - terminal:
+

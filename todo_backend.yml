@@ -1,0 +1,11 @@
+# ~/.tmuxinator/todo_backend.yml
+
+name: todo_backend
+root: ~/Code/railscamp/todo_backend
+
+windows:
+ - vim: vim
+ - terminal:
+ - terminal:
+ - server: rails server
+

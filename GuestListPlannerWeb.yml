@@ -1,0 +1,11 @@
+# ~/.tmuxinator/GuestListPlannerWeb.yml
+
+name: GuestListPlannerWeb
+root: ~/Code/GuestListPlannerWeb
+
+windows:
+ - vim: vim
+ - specs:
+ - server: ember s
+ - terminal:
+

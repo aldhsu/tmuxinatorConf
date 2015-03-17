@@ -1,0 +1,10 @@
+# ~/.tmuxinator/res.yml
+
+name: res
+root: ~/Code/railscamp/res
+
+windows:
+ - vim: vim
+ - terminal:
+ - terminal:
+

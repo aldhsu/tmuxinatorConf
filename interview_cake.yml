@@ -1,0 +1,10 @@
+# ~/.tmuxinator/interview_cake.yml
+
+name: interview_cake
+root: ~/Code/railscamp/interview_cake
+
+windows:
+ - vim: vim
+ - test: 
+ - terminal:
+

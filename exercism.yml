@@ -1,0 +1,11 @@
+# ~/.tmuxinator/exercism.yml
+
+name: exercism
+root: ~/Code/exercism
+
+windows:
+ - vim: vim
+ - specs:
+ - console:
+ - terminal:
+
